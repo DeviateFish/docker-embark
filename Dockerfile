@@ -14,3 +14,5 @@ RUN npm install -g git://github.com/DeviateFish/embark-framework#fix/broken-test
 #RUN npm install -g embark
 
 ENV NODE_PATH /usr/local/lib/node_modules
+
+WORKDIR /opt/shared
