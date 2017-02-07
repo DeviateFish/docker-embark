@@ -25,4 +25,4 @@ For even more helpfulness, try setting your `npm test` command to run `embark te
 
 ## About that comment in `Dockerfile`
 
-So the current version of `embark` doesn't actually work when you try to run tests.  So, this will globally install my fork of embark, for now, which fixes a couple issues with testing.  See DeviateFish/embark-framework#fix/broken-test-deployment for more details.
+So the current version of `embark` doesn't actually work when you try to run tests.  So, this will globally install my fork of embark, for now, which fixes a couple issues with testing.  See DeviateFish/embark-framework#patch/2.2.4-test-fix for more details.  This is essentially a fixed version of what is currently (as of this writing) the latest version of `embark` on npm: 2.2.4
