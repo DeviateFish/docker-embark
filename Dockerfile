@@ -9,9 +9,7 @@ RUN apk add --no-cache --virtual --update make \
 RUN apk add --no-cache --update nano
 
 RUN npm install -g ethereumjs-testrpc
-# because fucking embark is shite
-RUN npm install -g git://github.com/DeviateFish/embark-framework#patch/2.2.4-test-fix
-#RUN npm install -g embark
+RUN npm install -g embark
 
 ENV NODE_PATH /usr/local/lib/node_modules
 
