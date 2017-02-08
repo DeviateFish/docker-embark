@@ -5,9 +5,6 @@ RUN apk add --no-cache --virtual --update make \
   gcc g++ python git bash && \
   rm -rf /tmp/* /var/cache/apk/*
 
-# temp for editing purposes
-RUN apk add --no-cache --update nano
-
 RUN npm install -g ethereumjs-testrpc
 RUN npm install -g embark
 
